@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+    </script>
+    <title>Document</title>
+    
+</head>
+<h2> Cargar Articulos </h2>   
+<form action="/articulos" method="post">
+    <select id="articulos" name="articulos"></select>
+    <br>
+    <label> Nombre de articulo: </label>
+    <input type:'text'/>
+    <br> 
+    <label> Precio de articulo:</label>
+    <input type:'text'/>
+    <br>
+    <label> Número de articulo: </label>
+    <input type:'text'/>
+    <br>
+    <button type:'submit'>Enviar</button>
+    <br>
+    <br>
+<button id="boton">    
+    <a href="/categorias"> cargar categorias</a>
+</button> 
+</form>
+
+
+
+
+<script src="ingresos.js"></script>
+</body>
+</html>

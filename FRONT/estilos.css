@@ -1,0 +1,72 @@
+
+
+/* HEADER */
+header{
+    background-color: aliceblue;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+header #logo{
+
+    margin: 0 auto;
+}
+header #logo img{
+
+    width: 800px;
+}
+
+/* REGISTRO */
+
+#formulario{  
+
+    width: 20%;
+    margin-right: 5%; 
+
+}
+
+#registro{
+    width: 100%;
+    text-align: right;
+    margin: 10px;
+}
+
+#botones{
+
+    text-align: right;
+    width: 100%;
+
+}
+button{
+    margin: 10px auto;
+}
+
+/* NAV */
+nav{
+
+    background-color: dodgerblue;
+    
+}
+ul{
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+} 
+
+ul a{
+    font-size: 2em;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+aside{
+    display: flex;
+}
+aside #contenedor1, #contenedor2, #contenedor3 {
+    width:33%;
+    height: 200px;
+}
