@@ -98,25 +98,6 @@ aside{
 }
 
 
-
-#imagen1{
-    background-size: cover; 
-    width: 100%;
-    height: 100%;
-}
-#imagen2{
-    background-size: cover; 
-    width: 100%;
-    height: 100%;
-}
-#imagen3{
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-
-
-
 #imagen1:target{
     background-image: url("img/foto1_chica.png");
 
@@ -131,7 +112,6 @@ aside{
 }
 
 
-
 #listado{
     display: flex;
 }
@@ -139,6 +119,7 @@ aside{
 #imagen1{
     width: 300px;
     height: 300px;
+    
 
 }
 #imagen2{
@@ -151,14 +132,15 @@ aside{
     position: absolute;
     width: 300px;
     height: 300px;
-
-
+    display: none;
 }
 
 
+#imagen1 h2,p{
+    position: relative;
+    z-index: -1;
+}
 
-
-#test{
-    width: 300px;
-    height: 300px;
+#imagen3:hover{
+    right:200px;
 }
