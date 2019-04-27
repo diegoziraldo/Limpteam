@@ -4,7 +4,7 @@
 header{
     background-color: aliceblue;
     display: flex;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 header #logo{
@@ -18,10 +18,14 @@ header #logo img{
 
 /* REGISTRO */
 
-#formulario{  
-
+#formularioContenedor{  
+    display: flex;
     width: 20%;
     margin-right: 5%; 
+
+}
+#formulario{
+    width: 100%;
 
 }
 
@@ -30,14 +34,19 @@ header #logo img{
     text-align: right;
     margin: 10px;
 }
+input{
+    margin: 10px;
+    font-size: 2em;
+}
 
 #botones{
-
+    
     text-align: right;
-    width: 100%;
+
 
 }
 button{
+    font-size: 1.8em;
     margin: 10px auto;
 }
 
@@ -66,7 +75,90 @@ ul li{
 aside{
     display: flex;
 }
-aside #contenedor1, #contenedor2, #contenedor3 {
+#articulos{
+    display: flex;
+}
+#contenedor1, #contenedor2, #contenedor3 {
     width:33%;
-    height: 200px;
+    height: 400px;
+
+}
+
+#contenedor1 img{
+    width: 100%;
+    height: 100%;
+}
+#contenedor2 img{
+    width: 100%;
+    height: 100%;
+}
+#contenedor3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#imagen1{
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
+}
+#imagen2{
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
+}
+#imagen3{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#imagen1:target{
+    background-image: url("img/foto1_chica.png");
+
+}
+#imagen2:target{
+    background-image: url("img/foto2_chica.png");
+
+}
+#imagen3:target{
+    background-image: url("img/limp_chica.png");
+
+}
+
+
+
+#listado{
+    display: flex;
+}
+
+#imagen1{
+    width: 300px;
+    height: 300px;
+
+}
+#imagen2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+
+}
+#imagen3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+
+
+}
+
+
+
+
+#test{
+    width: 300px;
+    height: 300px;
 }
