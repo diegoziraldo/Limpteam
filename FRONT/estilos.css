@@ -2,10 +2,14 @@
 
 /* HEADER */
 header{
-    background-color: aliceblue;
+    background: url(img/limp.png);
+    background-size: 800px; 
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     width: 100%;
     margin: 0 auto;
+    height: 500px;
 }
 header #logo{
 
@@ -21,7 +25,7 @@ header #logo img{
 #formularioContenedor{  
     display: flex;
     width: 20%;
-    margin-right: 5%; 
+    margin-right: 90%; 
 
 }
 #formulario{
@@ -135,5 +139,5 @@ aside{
 }
 
 #imagen3:hover{
-    right:200px;
+    right:100px;
 }
