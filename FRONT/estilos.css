@@ -12,7 +12,7 @@ header{
     height: 500px;
 }
 header #logo{
-
+    display: flex;
     margin: 0 auto;
 }
 header #logo img{
@@ -22,11 +22,9 @@ header #logo img{
 
 /* REGISTRO */
 
-#formularioContenedor{  
-    display: flex;
-    width: 20%;
-    margin-right: 90%; 
-
+#formularioContenedor{ 
+    justify-content: flex-end; 
+    width: 95%;
 }
 #formulario{
     width: 100%;
@@ -97,6 +95,7 @@ aside{
 
 #imagen1:target{
     background-image: url("img/foto1_chica.png");
+    display: block;
 }
 
 #imagen2:target{
@@ -114,30 +113,19 @@ aside{
 }
 
 #imagen1{
+    display: none;
     width: 300px;
     height: 300px;
-
-
+ 
 }
 #imagen2{
-    position: absolute;
+    position: ;
     width: 300px;
     height: 300px;
 
 }
 #imagen3{
-    position: absolute;
+    position: ;
     width: 300px;
     height: 300px;
-
-}
-
-
-#imagen1 h2,p{
-    position: relative;
-    z-index: -1;
-}
-
-#imagen3:hover{
-    right:100px;
 }
