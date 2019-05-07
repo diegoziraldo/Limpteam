@@ -80,6 +80,7 @@ aside{
 #articulos{
     display: flex;
 }
+
 #contenedor1, #contenedor2, #contenedor3 {
     width:33%;
     height: 400px;
@@ -93,18 +94,25 @@ aside{
 
 
 
-#imagen1:target{
+#imagen1:target {
     background-image: url("img/foto1_chica.png");
+    margin-top: 30px;
     display: block;
+   
 }
 
 #imagen2:target{
+    margin-top: 30px;
     background-image: url("img/foto2_chica.png");
-
+    display: block;
+    
 }
-#imagen3:target{
-    background-image: url("img/limp_chica.png");
 
+#imagen3:target{
+    margin-top: 30px;
+    background-image: url("img/limp_chica.png");
+    display: block;
+  
 }
 
 
@@ -113,19 +121,33 @@ aside{
 }
 
 #imagen1{
+    position: absolute;
     display: none;
     width: 300px;
     height: 300px;
- 
-}
+    
+ }
 #imagen2{
-    position: ;
+    position: absolute;
+    display: none;
     width: 300px;
     height: 300px;
-
+    
 }
 #imagen3{
-    position: ;
+    position: absolute;
+    display: none;
     width: 300px;
     height: 300px;
+    
+}
+
+#imagen1 h2, #imagen1 p, #imagen2 h2, #imagen2 p, #imagen3 h2, #imagen3 p {
+    
+    z-index: -1;
+    position: relative;
+}
+
+#imagen1:hover{
+    border: 1px solid black;  
 }
