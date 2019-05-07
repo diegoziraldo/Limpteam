@@ -98,6 +98,7 @@ aside{
     background-image: url("img/foto1_chica.png");
     margin-top: 30px;
     display: block;
+
    
 }
 
@@ -121,12 +122,19 @@ aside{
 }
 
 #imagen1{
-    position: absolute;
+    position: relative;
     display: none;
     width: 300px;
     height: 300px;
-    
+
  }
+ 
+ #imagen1 h2, #imagen1 p, #imagen2 h2, #imagen2 p, #imagen3 h2, #imagen3 p {
+    left:0;
+    -webkit-transition: left 0.3s;
+    transition: left 0.3s;
+
+ } 
 #imagen2{
     position: absolute;
     display: none;
@@ -146,8 +154,10 @@ aside{
     
     z-index: -1;
     position: relative;
+
 }
 
-#imagen1:hover {
-    border: 1px solid black;  
+#imagen1:hover h2, #imagen1:hover p,#imagen2:hover h2, #imagen2:hover p,#imagen3:hover h2, #imagen3:hover p {
+
+    left: 320px;
 }
