@@ -1,9 +1,9 @@
 #contenedor{
     display: flex;
-
+    justify-content:end;
 }
 button{
-    justify-content: flex-end;
+    
 }
 #datos input {
 
