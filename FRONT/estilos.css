@@ -1,65 +1,27 @@
-
-
 /* HEADER */
 header{
     background: url(img/limp.png);
     background-size: 800px; 
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
     width: 100%;
     margin: 0 auto;
     height: 500px;
-}
-header #logo{
-    display: flex;
-    margin: 0 auto;
-}
-header #logo img{
 
-    width: 800px;
 }
 
 /* REGISTRO */
 
 #formularioContenedor{ 
-    justify-content: flex-end; 
-    width: 95%;
+    width: 100%;
+    display: flex;
+
 }
+
 #formulario{
     width: 100%;
-
-}
-
-#registro{
-    width: 100%;
-    text-align: right;
-    margin: 10px;
-}
-input{
-    margin: 10px;
-    font-size: 2em;
-}
-
-#botones{
     
-    text-align: right;
 
-
-}
-button{
-    font-size: 1.8em;
-    margin: 10px auto;
-}
-
-#iniciarSesion{
-    display: flex;
-    width: 200px;
-    height: 50px;
-}
-
-#iniciarSesion input{
-    justify-content: flex-end;
 }
 
 

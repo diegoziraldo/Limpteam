@@ -1,0 +1,10 @@
+#contenedor{
+    display: flex;
+
+}
+button{
+    justify-content: flex-end;
+}
+#datos input {
+
+}
