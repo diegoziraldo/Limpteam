@@ -96,21 +96,21 @@ aside{
 
 #imagen1:target {
     background-image: url("img/foto1_chica.png");
-    margin-top: 30px;
+    margin: 30px;
     display: block;
 
    
 }
 
 #imagen2:target{
-    margin-top: 30px;
+    margin: 30px;
     background-image: url("img/foto2_chica.png");
     display: block;
     
 }
 
 #imagen3:target{
-    margin-top: 30px;
+    margin: 30px;
     background-image: url("img/limp_chica.png");
     display: block;
   
