@@ -22,7 +22,7 @@ header{
 
 #formulario{
     width: 90%;
-    /* display: flex; */
+    display: flex;
     justify-content: flex-end;
 }
 
