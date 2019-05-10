@@ -67,29 +67,55 @@ ul li{
 aside{
     display: flex;
 }
+
 #articulos{
+    width: 100%;
+    height: 100%;
     display: flex;
+    perspective: 1200px;
 }
 
-#contenedor1, #contenedor2, #contenedor3 {
-    width:33%;
+#contenedor1, #contenedor2, #contenedor3, #contenedor4 {
+    position: relative;
+    width:100%;
     height: 400px;
-
+    transform-style: preserve-3d;
+    transition: 0.5s;
 }
 
-#contenedor1 img, #contenedor2 img, #contenedor3 img{
+#contenedor1 img, #contenedor2 img, #contenedor3 img, #contenedor4 img{
     width: 100%;
     height: 100%;
 }
+#contenedor1:hover, #contenedor2:hover, #contenedor3:hover, #contenedor4:hover{
+    transform: rotateY(180deg);
+}
+
+.ladoFrente, .ladoAtras{
+                            /* CON ESTO HACEMOS QUE EL LADO DE ATRAS DE EL DIV PERMANEZCA OCULTO */
+    position: absolute;
+}
+
+.ladoFrente{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.ladoAtras{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+    backface-visibility: hidden; 
+}
 
 
 
-#imagen1:target {
+/* #imagen1:target {
     background-image: url("img/foto1_chica.png");
     margin: 30px;
     display: block;
-
-   
 }
 
 #imagen2:target{
@@ -105,6 +131,11 @@ aside{
     display: block;
   
 }
+#imagen4:target{
+    margin: 30px;
+    background-image: url("img/pala.png");
+    display: block;
+} */
 
 
 #listado{
@@ -119,7 +150,7 @@ aside{
 
  }
  
- #imagen1 h2, #imagen1 p, #imagen2 h2, #imagen2 p, #imagen3 h2, #imagen3 p {
+ #imagen1 h2, #imagen1 p, #imagen2 h2, #imagen2 p, #imagen3 h2, #imagen3 p, #imagen3 h2, #imagen4 p, #imagen4 h2 {
     left:0;
     -webkit-transition: left 0.3s;
     transition: left 0.3s;
@@ -140,6 +171,13 @@ aside{
     
 }
 
+#imagen4{
+    position: absolute;
+    display: none;
+    width: 300px;
+    height: 300px;
+    
+}
 #imagen1 h2, #imagen1 p, #imagen2 h2, #imagen2 p, #imagen3 h2, #imagen3 p {
     
     z-index: -1;
