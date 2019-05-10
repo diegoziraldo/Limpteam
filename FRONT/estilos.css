@@ -92,14 +92,14 @@ aside{
 }
 
 .ladoFrente, .ladoAtras{
-                            /* CON ESTO HACEMOS QUE EL LADO DE ATRAS DE EL DIV PERMANEZCA OCULTO */
+                           
     position: absolute;
 }
 
 .ladoFrente{
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
+    backface-visibility: hidden;     /* CON ESTO HACEMOS QUE EL LADO DE ATRAS DE EL DIV PERMANEZCA OCULTO */
 }
 
 .ladoAtras{
@@ -188,4 +188,16 @@ aside{
 #imagen1:hover h2, #imagen1:hover p,#imagen2:hover h2, #imagen2:hover p,#imagen3:hover h2, #imagen3:hover p {
 
     left: 320px;
+}
+
+#comentariosAside{
+    background-color: azure;
+    width: 95%;
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+    
+}
+#comentariosAside label{
+    margin: 1%;
 }
