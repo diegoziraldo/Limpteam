@@ -18,7 +18,7 @@ header{
 #buscador, input{
     justify-content: flex-end;
     margin: 1%;
-    font-size:larger;
+    font-size:xx-large;
 }
 
 /* REGISTRO */
@@ -45,7 +45,7 @@ header{
 /* NAV */
 nav{
     margin-top: 50px;
-    background-color: dodgerblue;
+    background-color: rgb(52, 52, 202);
     
 }
 ul{
@@ -112,7 +112,7 @@ aside{
 
 
 
-/* #imagen1:target {
+#imagen1:target {
     background-image: url("img/foto1_chica.png");
     margin: 30px;
     display: block;
@@ -200,4 +200,27 @@ aside{
 }
 #comentariosAside label{
     margin: 1%;
+    display: flex;
+}
+
+label{
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    align-items: center;
+    display: inline-block;
+    background: linear-gradient(0deg, rgb(26, 107, 212), rgb(79, 147, 236));
+    border-radius: 10px;
+    padding: 20px;
+
+
+
+}
+label:active{
+    background: linear-gradient(0deg, rgb(79, 147, 236), rgb(26, 107, 212));
+}
+
+textarea{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
