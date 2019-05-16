@@ -87,9 +87,9 @@ aside{
     width: 100%;
     height: 100%;
 }
-#contenedor1:hover, #contenedor2:hover, #contenedor3:hover, #contenedor4:hover{
+/* #contenedor1:hover, #contenedor2:hover, #contenedor3:hover, #contenedor4:hover{
     transform: rotateY(180deg);
-}
+} */
 
 .ladoFrente, .ladoAtras{
                            
@@ -221,6 +221,11 @@ label:active{
 }
 
 textarea{
-    font-size: 14px;
+    font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
+#comentario{
+    text-align: center;
 }
